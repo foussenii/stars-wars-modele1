@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>star wars</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="icon" type="favicon.ico" href="favicon.ico" />
+</head>
+
+<body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="jquery.inview.min.js"></script>
+    <script src="https://use.fontawesome.com/bd50721eed.js"></script>
+    <link rel="stylesheet" href="animate.css" media="screen" title="no title">
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+            } else {
+                $('header').removeClass("sticky");
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.force').bind('inview', function(e, isInView, visiblePartX, visiblePartY) {
+                if (isInView) {
+                    $('.force').addClass('animated zoomIn');
+                    $('.force').css('visibility', 'visible');
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $('.espace').bind('inview', function(e, isInView, visiblePartX, visiblePartY) {
+                if (isInView) {
+                    $('.espace').addClass('animated fadeIn');
+                    $('.espace').css('visibility', 'visible');
+                }
+            });
+        });
+        $(document).ready(function() {
+            $('.ps4').bind('inview', function(e, isInView, visiblePartX, visiblePartY) {
+                if (isInView) {
+                    $('.ps4').addClass('animated zoomIn');
+                    $('.ps4').css('visibility', 'visible');
+                }
+            });
+        });
+        $(document).ready(function() {
+            $('.rd2d').bind('inview', function(e, isInView, visiblePartX, visiblePartY) {
+                if (isInView) {
+                    $('.rd2d').addClass('animated zoomIn');
+                    $('.rd2d').css('visibility', 'visible');
+                }
+            });
+        });
+    </script>
+    <header>
+
+        <div class="center-header">
+            <ul>
+                <li class="espace"><a href="#">LE COTÉ LUMINEUX</a></li>
+                <li class="espace"><a href="#">LE COTÉ OBSCUR</a></li>
+                <li class="espace"><a href="#">L'EMPIRE</a></li>
+                <li class="espace"><a href="#">LES DROÏDES</a></li>
+                <li class="espace"><a href="#">LES EWORKS</a></li>
+                <li class="espace"><a href="#">JABBA LE HUTT</a></li>
+            </ul>
+        </div>
+    </header>
+    <form>
+        <div class="container">
+            <div class="force">
+                <img class="titre" src="logo.png" alt="">
+            </div>
+        </div>
+    </form>
+    <div id="page">
+        <div class="intro-titre">
+            <h1 class "intro">Star Wars, The Force Awakens</h1><a href="#"><i className="fa fa-twitter fa-2x" aria-hidden="false"></i></a>
+        </div>
+        <div class="inline-block">
+
+            <div class="Synopsie">
+
+                <p>
+                    Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+                </p>
+
+                <p>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire
+                    la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.</p>
+
+                <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier
+                    Ordre ».
+                </p>
+
+                <p>
+                    Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».
+                </p>
+
+                <p>Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis du Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse d'épaves sur la planète désertique Jakku, va faire
+                    la rencontre de Finn, un Stormtrooper en fuite, une rencontre qui bouleversera sa vie.</p>
+
+                <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier
+                    Ordre ».
+                </p>
+            </div>
+
+            <div class="battlefrom">
+                <img class="ps4" src="ad.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="titre2">
+
+
+    </div>
+    <div class="intro-titre">
+        <h2 class="time">
+A long time ago, in a galaxy far, far away…</h2>
+    </div>
+    <div class="stars">
+        <div class="img-stars">
+            <img class="rd2d" src="Assets/r2d2_c3p0-2x.jpg" alt="">
+        </div>
+        <div class="text-stars">
+            <p>La Guerre des étoiles (titre original Star Wars, soit littéralement Guerres Stellaires ) est une épopée cinématographique de science-fiction créée par George Lucas, considérée comme un élément phare du space opera.</p>
+            <p>Prévue à la base pour être une suite de trois trilogies (triptyque), Lucas fut contraint, par manque de moyens techniques, de commencer par la seconde trilogie (l'Épisode IV - Un nouvel espoir) en 1977. </p>La série connut un succès phénoménal
+            partout dans le monde et engendra une très importante communauté de fans.
+            <p>
+                Sans prétendre expliquer le succès du premier film (s'il y avait une recette, cela se saurait), on peut, toutefois, noter que, malgré le manque de moyens (le budget était relativement modeste, les acteurs presque inconnus) :</p>
+        </div>
+    </div>
+    <div class="stars-2">
+        <div class="text-stars-2">
+            <p>- Il fait appel à des références connues et appréciées des jeunes de l'époque : films de cape et d'épée, westerns, péplums, contes de fées et même le Seigneur des Anneaux de J.R.R. Tolkien ; cette œuvre n'apparaît pas comme de la science-fiction
+                au sens strict mais plutôt comme du space fantasy.
+                <p>
+                    - Les effets spéciaux, supervisés par Ken Ralston, étaient réellement novateurs, avec notamment la participation de John Dykstra (qui a également participé au premier film de Star Trek), qui avait développé une nouvelle manière d'animer les maquettes
+                    des vaisseaux en coordonnant leurs mouvements par ordinateur (Dykstraflex).</p>
+                <p> - Le film a développé un univers cohérent, avec, comme préoccupation constante, autant la création d'une ambiance que l'action proprement dite. - La musique, composée par John Williams, introduit des thèmes récurrents et des leitmotivs
+                    (procédé classique mais renforçant la cohérence).</p>
+            </p>
+        </div>
+    </div>
+    <div class="storm">
+        <img class="troopers" src="Assets/stormtroopers-2x.jpg" alt="">
+    </div>
+    <div class="para">
+        <div class="final-titre">
+            <h1 id="licence">TM Lucasfilm Ltd. All Rights Reserved.</h1>
+        </div>
+        <div class="footer">
+            <div class="credit">
+                <a class="margin" href="#">Terms of Use</a>
+                <a class="margin" href="#">Legal Notices</a>
+                <a class="margin" href="#">Privacy Policy</a>
+            </div>
+            <div class="credit">
+                <a class="margin" href="#">Your California Privacy Rights</a>
+                <a class="margin" href="#">Star Wars at Disney Store</a>
+                <a class="margin" href="#">Privacy Policy</a>
+            </div>
+            <div class="credit">
+                <a class="margin-1" href="#">FOLLOW STAR WARS</a>
+                <div class="sociaux">
+                    <a class="sociaux-1" href="#"><img src="Assets/icon_facebook.png" alt=""></a>
+                    <a class="sociaux-1" href="#"><img src="Assets/icon_twitter.png" alt=""></a>
+                    <a class="sociaux-1" href="#"><img src="Assets/icon_instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

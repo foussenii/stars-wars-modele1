@@ -1,0 +1,263 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    // set animation
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+header.sticky {
+   position: fixed;
+   font-size: 29px;
+   line-height: 58px;
+   height: 50px;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.2);
+   text-align: center;
+ }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+    padding-top: 4%;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: #00FFFF;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.time {
+    text-align: center;
+    padding-right: 2em;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    background: url(header-bg-2x.png) no-repeat;
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+}
+#page {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 90vh;
+}
+.center-header {
+    display: flex;
+    justify-content: center;
+}
+.espace {
+    box-sizing: border-box;
+    padding-left: 3em;
+}
+.container {
+    width: 100%;
+    height: 90vh;
+}
+
+.force {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 100%;
+}
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    height: 60%;
+    box-sizing: border-box;
+}
+.inline-block {
+    padding-bottom: 200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.ps4 {
+    width: 100%;
+    height: 60%
+}
+.Synopsie {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 19px;
+    width: 27%;
+    height: 60%;
+    margin-bottom: 30px;
+}
+.battlefrom {
+    display: flex;
+}
+.intro-titre {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 8em;
+}
+.titre2 {
+    width: 100%;
+    height: 90%;
+    background: url(Assets/kiloren-2x.jpg) no-repeat;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.stars {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-stars {
+    display: flex;
+    width: 25%;
+    height: 25%;
+}
+.rd2d {
+    width: 100%;
+    height: 60%;
+}
+.text-stars {
+    padding-left: 1.9em;
+    color: black;
+    font-size: 15px;
+    width: 40%;
+    height: 60%;
+}
+.stars-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.text-stars-2 {
+    width: 65%;
+    height: 60%;
+    font-size: 15px;
+}
+.storm {
+    width: 100%;
+    height: 20%;
+}
+.troopers {
+    width: 100%;
+    height: 14%;
+}
+.para {
+
+    background: url(./Assets/darthvader_2x.jpg) no-repeat;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.final-titre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 100%;
+padding-top: 8em;
+text-align: center;
+}
+#licence{
+  color: grey;
+  font-size: 25px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+justify-content: space-around;
+  padding-top: 6em;
+  width: 100%;
+  height: 50%;
+}.credit{
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.margin{
+    color: grey;
+  padding-top: 1.5em;
+  text-align: center;
+}
+.margin-1{
+  color: grey;
+  font-size: 14px
+}
+.sociaux{
+padding-right: 1em;
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: row;
+}
+.sociaux-1{
+  padding-left: 2em;
+}
